@@ -4,6 +4,7 @@
     <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="author" content="{{ site.author }}" >
+    <link rel="alternate" hreflang="{ site.locale }" href="{{ site.url }}" />
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
     <!-- Twitter Cards -->
     {% if page.feature %}{% capture feature %}{{ page.feature }}{% endcapture %}{% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.url }}/{{ feature }}{% endcapture %}{% endunless %}
