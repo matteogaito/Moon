@@ -8,9 +8,7 @@ logo:               'assets/img/me1.jpg'
 background:         'assets/img/placeholder-big-2.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             it_IT
-#url:                https://matteo.gaito.net
-url:                http://192.168.251.54:4000
-#url:                http://localhost:4000
+url:                'https://matteogaito.github.io'
 show_pages:         false
 
 # Jekyll
